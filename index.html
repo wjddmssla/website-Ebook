@@ -15,8 +15,8 @@
 <div class="flipbook-viewport">
 	<div class="container">
 		<div class="flipbook">
-			<div style="background-image:url(../pages/1.jpg)"></div>
-				<div style="background-image:url(../pages/2.jpg)"></div>
+			<div style="background-image:url(pages/1.jpg)"></div>
+				<div style="background-image:url(pages/2.jpg)"></div>
 				<div style="background-image:url(../pages/3.jpg)"></div>
 				<div style="background-image:url(../pages/4.jpg)"></div>
 				<div style="background-image:url(../pages/5.jpg)"></div>
@@ -114,8 +114,8 @@ function loadApp() {
 
 yepnope({
 	test : Modernizr.csstransforms,
-	yep: ['../lib/turn.js'],
-	nope: ['../lib/turn.html4.min.js'],
+	yep: ['lib/turn.js'],
+	nope: ['lib/turn.html4.min.js'],
 	both: ['css/style.css'],
 	complete: loadApp
 });
